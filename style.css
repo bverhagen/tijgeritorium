@@ -1,0 +1,388 @@
+body        {   color: #000000;
+                background: #000000;
+				font-family: Arial, Helvetica, sans-serif;
+				text-align: center;
+				margin: 10px 0px;
+            }
+div#wrapper {	width: 1000px;
+                margin: 0px auto;
+                border: none;
+                background: #000000;
+                color: #000000;
+				border: none;
+				text-align: left;
+            }
+div#head      { margin-bottom: 4px;
+                padding: 0px;
+                border: none;
+                width: 1000px;
+            }
+div#navigation{ width: 190px;
+				margin: 0;
+                padding:0;
+                text-align: left;
+                border: none;
+				float: left;
+				border-right: 2px solid #000;
+            }
+div#text      { margin: 0px 0px 0px 192px;
+                padding: 20px 15px 20px 20px;
+                background: url(back_main.png);
+                width: 596px;
+                border: none;
+				min-height: 760px;
+            }
+div#rel		{	margin: 0;
+				padding: 0;
+				width: 175px;
+/*                position: absolute;
+                top: 227px;
+                right: 0;*/
+                text-align: left;
+                border: none;	
+				float: right;
+			}
+div#rel_links {
+				background: url(back_rel.png);
+				width: 100%;
+			}
+div#ad_head	{	margin: 2px 0px;
+				background: none;
+			}
+div#ad_right {	margin: 2px 0px;
+				padding: 0;
+				width: 100%;
+				background: none;
+                text-align: left;
+                border: none;	
+				float: right;
+			}
+
+/* <------------------------------------------------------ Achtergrond rel -----------------------------------------------------> */
+#rel h4		{
+				background: url(rel_top.png) top left no-repeat;
+				margin: 0;
+			 	padding: 20px 0px 5px 15px;
+				border: none;
+				font-family: arial;
+				font-size: 12pt;
+				text-align: left;
+			}
+#rel ul		{
+				margin: 0px;
+				padding: 0px 0px 20px 30px;
+				background: url(rel_bottom.png) bottom left no-repeat;
+				font-size: 12pt;
+				border: none;
+			}
+/* <-------------------------------------------------------- /achtergrond rel ----------------------------------------------------------> */
+
+/* <------------------------------------------------------- Taalknoppen rechtsonder ------------------------------> */
+
+div#language  { background: #000000;
+ 				padding: 0;
+/* 				position: absolute;
+ 				left: 60px;
+ 				top: 1002px; */
+				border: none;
+				margin-left: 60px;
+				margin-top: 5px
+            }
+#language a	{	margin: 0px 0px 0px 10px;
+				padding: 0;
+}
+#language img   { 	margin: 0;
+					padding: 0;
+				}
+/* <------------------------------------------------------- /Taalknoppen rechtsonder ------------------------------> */
+
+/* <--------------------------------------------------------- footer ------------------------------------------------------------------------> */
+/*html, body {
+   height: 100%;
+   }
+.wrapper {
+   min-height: 100%;
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto -25px;
+  }*/
+div#footer {
+/*	height: 25px;*/
+	width: 1000px;
+	margin: 0 auto;
+}
+div#footer p {
+	color: #F60;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 8pt;
+}
+/*<----------------------------------------------------------- / footer ----------------------------------------------------------------------> */
+H           {   font-family: Arial, Helvetica, sans-serif; 
+				color: #000000;
+			}
+H1			{	font-family: segoe print, Arial, sans-serif;
+				text-align: center;
+				font-size: 26pt;
+				margin: 0;
+				padding: 0;
+			}
+H1.arial    {   font-size: 24pt;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+H2          {   font-size: 14pt;
+                text-align: left;
+                font-family: arial;
+                margin: 20px 0px 0px 0px;
+                padding: 0;
+                text-decoration: underline;
+            }
+H2.cursive  {	font-style: italic;
+				text-decoration: none;
+	    	}	
+H2.center   {   text-align: center;
+				text-decoration: none;
+			}
+H3          {   text-align: left;
+                font-size: 18pt;
+                text-decoration: underline;
+            }			
+p           {   padding: 0;
+				margin: 0px 0px 20px 0px;
+				font-size: 14pt;
+                text-align: left;
+                font-family: arial;
+            }
+p.nobottom	{
+				margin: 0;
+}
+p.italic	{
+				font-style: italic;
+			}
+p.onderverdeling {
+				padding: 0px 0px 0px 20px;
+			}
+p.opm		{	padding: 0px 0px 0px 50px;
+				font-size: 10pt;	
+			}
+p.center	{
+				text-align: center;
+				font-size: 12pt;
+			}
+p.border	{													/* Dient enkel om de dimensies van een p-paragraaf te testen*/
+				border: 1px solid white;
+			}
+p.ol		{	padding: 0;
+				margin: 0;
+			}
+p.note		{
+				font-size: 9pt;
+				padding: 0px 0px 10px 30px;
+			}
+			
+span.italic	{
+				font-style: italic;
+			}
+span.underline
+			{
+				text-decoration: underline;
+			}
+			
+a			{
+				margin: 50px 0px;
+			}
+a:link      {   color: yellow;}
+a:visited   {   color: yellow;}
+a:hover     {   color: #000000;}
+/*<------------------------------------------- nav & rel	----------------------------------------------------------> */
+			
+body#home li#home > a,						/* Aanduiden huidige pagina */
+body#onderverdeling	li#onderverdeling > a,
+body#uitwendig li#uitwendig > a,
+body#gedrag li#gedrag > a,
+body#zintuigen li#zintuigen > a,
+body#sibtijger	li#sibtijger > a,
+body#bentijger	li#bentijger > a,
+body#sumtijger	li#sumtijger > a,
+body#indotijger	li#indotijger > a,
+body#zuidtijger	li#zuidtijger > a,
+body#kasptijger li#kasptijger > a,
+body#javatijger	li#javatijger > a,
+body#baltijger	li#baltijger > a,
+body#lijger		li#lijger > a,
+body#teeuw		li#teeuw > a,
+body#sabtijger	li#sabtijger > a,
+body#links		li#links > a		{color: #630}
+
+body#home li#home:hover >  a,
+body#onderverdeling	li#onderverdeling:hover > a,
+body#uitwendig	li#uitwendig:hover > a,
+body#gedrag	li#gedrag:hover > a,
+body#zintuigen	li#zintuigen:hover > a,
+body#sibtijger	li#sibtijger:hover > a,
+body#bentijger	li#bentijger:hover > a,
+body#sumtijger	li#sumtijger:hover > a,
+body#indotijger	li#indotijger:hover > a,
+body#zuidtijger	li#zuidtijger:hover > a,
+body#kasptijger li#kasptijger:hover > a,
+body#javatijger	li#javatijger:hover > a,
+body#baltijger	li#baltijger:hover > a,
+body#lijger		li#lijger:hover > a,
+body#teeuw		li#teeuw:hover > a,
+body#sabtijger	li#sabtijger:hover > a,
+body#links		li#links:hover > a		{ color: #000}
+
+			
+body#home li#home,
+body#onderverdeling li#onderverdeling,
+body#uitwendig li#uitwendig,
+body#gedrag li#gedrag,
+body#zintuigen li#zintuigen,
+body#sibtijger	li#sibtijger,
+body#bentijger	li#bentijger,
+body#sumtijger	li#sumtijger,
+body#indotijger	li#indotijger,
+body#zuidtijger	li#zuidtijger,
+body#kasptijger	li#kasptijger,
+body#lijger		li#lijger,
+body#teeuw		li#teeuw,
+body#sabtijger	li#sabtijger
+{	margin-right: -2px;
+}
+
+#sddm
+{	margin: 0;
+	padding: 0;
+}
+
+#sddm li
+{	margin: 0px 0px 2px 0px;
+	padding: 10px 15px;
+	height: 15px;
+	list-style: none;
+	background: url(back_nav_round.png);
+	/*border: 2px solid rgb(255,85,0);*/
+	font: bold 11pt arial}
+	
+#sddm li a
+{	display: block;
+	margin: 0;
+	padding: 0;
+	color: yellow;
+	text-align: left;
+	border: none;
+	text-decoration: none
+}
+
+#sddm li.tab
+{
+	padding: 10px 0px 10px 30px;
+}
+
+#sddm li a:hover
+{	color: #000000;
+}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: -30px 0px 0px 160px;
+/*	margin-top: -30px \0; */ /* Voor IE8 waarde terug zetten */
+	padding: 0;
+	background: rgb(255,153,0);
+	border: 2px solid #000;
+/*	border-left: 1px solid #000;*/
+	border-left: none;
+}
+
+:root #sddm div	{	margin-top: -29px\9; /* Hack voor IE9 */
+}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0px;
+		padding: 10px 25px;
+		height: 15px;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: none;
+		color: yellow;
+		font: 11pt arial;
+		border-left: 2px solid #000;
+		font-weight: bold;
+	}
+	
+	#sddm div a:first-child
+	{
+		border-left: none;
+	}
+
+	#sddm div a:hover
+	{	color: #000;
+	}
+
+/*<------------------------------------------- / nav & rel	----------------------------------------------------------> */
+
+/*<------------------------------------------- Rel links ------------------------------------------------------------> */
+#rel ul li	{
+				padding: 0px 10px 15px 0px;
+				list-style-type: disc;
+			}
+#rel a:visited	{	color: #630;
+				}		
+/*<--------------------------------------------- / Rel links ---------------------------------------------------------> */
+a.algemeen	{	padding: 0;
+				margin: 0px 0px 0px 20px;
+}
+a.onderverdeling    {   margin: 0px 0px 0px 40px;
+						padding: 0;
+					}
+img         {   border: none;
+				margin: 20px 0px;
+			}
+#head img	{	margin: 0;
+				padding: 0;
+			}
+img.center  {   margin-left: auto;
+                margin-right: auto;
+				display: block;
+				border: none;
+            }
+img.links    	{    padding: 0px 20px 0px 0px;
+	    	}
+img.imgRight	{	float: right;
+}
+
+ol			{	margin: 0px 0px 20px 50px;
+				padding: 0;				
+				font-size: 14pt;
+				font-family: arial;
+				list-style-type: decimal;
+			}
+ul#felidae	{
+				padding: 0px 0px 0px 30px;
+				margin: 0;
+				font-size: 14pt;
+                text-align: left;
+                font-family: arial;
+}
+ul#felidae2	{	margin: 0;
+				padding: 0px 0px 20px 30px;
+				font-size: 14pt;
+				text-align: left;
+				font-family: arial;
+			}
+#felidae  li {   padding: 0px 0px 20px 0px;}
+#felidae2 li {	padding: 0;
+				margin: 0;
+			}
+ul.smilodon {   margin: 5px 0px 0px 80px;
+			}
+/* orange = rgb(249,99,1)*/
+/* achtergrond.bmp = rgb(255,140,0) => rgb(255,85,0)*/
+/* back_nav.png = rgb(255,85,0) => rgb(255,153,0)*/
+

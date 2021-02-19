@@ -1,0 +1,97 @@
+html	{	height: 100%;}
+
+body	{	background-color: #000000;
+		 	text-align: center;
+			border: none;
+		}
+
+div.center      {   position: absolute;
+		    width: 1024px;
+		    height: 93%;;
+			margin-left: -512px;
+		    padding-top: 1%;
+		    padding-bottom: 0%;
+		    background: #FF7500;
+			border: none;
+			left: 50%;
+			top: 2%;
+			min-height: 520px;
+        }
+div.tijgeritorium	{	position: absolute;
+				left: 0%;
+				bottom: 38%;
+				width: 1020px;
+				z-index: 5;
+			}
+h		{   font-family: times new roman;
+		    color: #000000;
+		}
+h1		{  	font-family: Segoe Print;
+		    font-size: 40pt;
+		    font-weight: 900;
+		    margin-top: 0;
+		    padding-top: 3%;
+		}
+h2		{   font-size: 20pt;
+			padding: 10px 0px 0px 0px;
+		}
+h3		{
+		    font-size: 16pt;
+		    margin-bottom: 0;
+		    margin-top: 0;
+		}   
+div.main	{   width: 75%;
+		    margin-left: auto;
+                    margin-right: auto;
+		    height: 10%;
+			
+		}
+div.english	{   position: relative;
+		    width: 47%;
+		    float: left;
+		    text-align: center;
+		    z-index: 0;
+		}
+div.nederlands	{   position: relative;
+		    width: 45%;
+		    float: right;
+		    text-align: center;
+		    z-index: 8;
+		}
+img         {   border: none;
+	    }
+img.upperLeft	{
+			position:absolute;
+			top:0%;
+			left: 0%;
+			margin: 0%;
+			z-index: 1;
+		}
+img.rightTree	{
+			position: absolute;
+			bottom: -1%;
+			right: 0%;
+			margin: 0%;
+			z-index: 1;
+		}
+img.silhouet1	{
+			position:absolute;
+			bottom:-1%;
+			left: 4%;
+			margin: 0%;
+			z-index: 6;
+		}
+img.silhouet2	{
+			position:absolute;
+			bottom:-1%;
+			left: 35%;
+			margin: 0%;
+			z-index: 6;
+		}
+A:link      {   color: yellow;}
+A:visited   {   color: yellow;}
+A:hover     {   color: #000000;}
+
+a.extra:link	{color: black;}
+a.extra:visited	{color: black;}
+a.extra:hover	{color: yellow;}
